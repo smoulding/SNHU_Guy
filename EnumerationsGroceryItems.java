@@ -7,7 +7,7 @@ public class EnumerationsGroceryItems
 	public static void main(String[] args) 
 	   {
 		   
-			GroceryItem userItem = GroceryItem.GR_APPLES;					//preset to Green Apples
+		      GroceryItem userItem = GroceryItem.GR_APPLES;					//preset to Green Apples
 
 		      if(userItem == GroceryItem.GR_APPLES || userItem == GroceryItem.GR_BANANAS)	//is fruit?
 		      {
