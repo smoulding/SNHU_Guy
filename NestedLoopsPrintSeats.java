@@ -4,8 +4,8 @@ public class NestedLoopsPrintSeats
 {
 	public static void main(String[] args) 
 	   {		   
-		      int i = 0;									//loop initializer
-		      int j = 0;									//nested loop initializer
+		      int i = 0;								//loop initializer
+		      int j = 0;								//nested loop initializer
 		      int numRows = 2;								//preset number of rows
 		      int numCols = 3;								//preset number of columns
 		      char column = 'A';							//column initializer
