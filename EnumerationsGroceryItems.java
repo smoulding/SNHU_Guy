@@ -2,12 +2,12 @@ package enumerationsGroceryItems;
 
 public class EnumerationsGroceryItems 
 {
-	public enum GroceryItem {GR_APPLES, GR_BANANAS, GR_JUICE, GR_WATER};					//assign outside Main method
+	public enum GroceryItem {GR_APPLES, GR_BANANAS, GR_JUICE, GR_WATER};				//assign outside Main method
 	
 	public static void main(String[] args) 
 	   {
 		   
-			GroceryItem userItem = GroceryItem.GR_APPLES;									//preset to Green Apples
+			GroceryItem userItem = GroceryItem.GR_APPLES;					//preset to Green Apples
 
 		      if(userItem == GroceryItem.GR_APPLES || userItem == GroceryItem.GR_BANANAS)	//is fruit?
 		      {
@@ -22,7 +22,7 @@ public class EnumerationsGroceryItems
 		      
 		      else
 		      {
-		    	  System.out.println("error");												//not in enum
+		    	  System.out.println("error");							//not in enum
 		      }   
 		      
 		      return;
