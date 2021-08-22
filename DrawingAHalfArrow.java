@@ -6,10 +6,10 @@ public class DrawingAHalfArrow
 {
 	public static void main(String[] args) 
 	{
-	      Scanner scnr = new Scanner(System.in);	//scanner
+	      Scanner scnr = new Scanner(System.in);			//scanner
 	      int arrowBaseHeight = 0;					//arrow base height
 	      int arrowBaseWidth  = 0;					//arrow base width
-	      int arrowHeadWidth = 0;	      			//arrow head width
+	      int arrowHeadWidth = 0;	      				//arrow head width
 	      
 	      // collect user input
 	      System.out.println("Enter arrow base height: ");
@@ -23,7 +23,7 @@ public class DrawingAHalfArrow
 	      
 	      if(arrowHeadWidth <= arrowBaseWidth)			//check for suitable arrow head width
 	      {
-	    	  while(arrowHeadWidth <= arrowBaseWidth)	// loop until suitable arrow head width is input
+	    	  while(arrowHeadWidth <= arrowBaseWidth)		// loop until suitable arrow head width is input
 		      {
 		    	  
 		    	  System.out.println("Enter arrow head width: ");
@@ -37,10 +37,10 @@ public class DrawingAHalfArrow
 	    	  {
 	    		 System.out.print("*");
 	    	  }
-	    	  System.out.println();						//next line
+	    	  System.out.println();				//next line
 	      }
 	      
-	      while(arrowHeadWidth >= 1)					//draw arrow head
+	      while(arrowHeadWidth >= 1)			//draw arrow head
 	      {
 	    	  for(int i = 1; i <= arrowHeadWidth; ++i)
 	    	  {
