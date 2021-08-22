@@ -1,6 +1,3 @@
-// section 3:15, text message expander
-// Scott Moulding 8/21/21
-
 package textMessageExpander;
 
 import java.util.Scanner;
@@ -9,9 +6,10 @@ public class TextMessageExpander
 {
    public static void main(String[] args) 
    {
-	   Scanner scnr = new Scanner(System.in);
+	   Scanner scnr = new Scanner(System.in);			//initialize scanner
 	   
-	   String userInput;
+	   //string variables
+	   String userInput;						
 	   String abbr;
 	   String IDK = "I don't know";
 	   String BFF = "best friend forever";
@@ -19,12 +17,13 @@ public class TextMessageExpander
 	   String TMI = "too much information";
 	   String TTYL = "talk to you later";
 	   
-	   System.out.println("Enter text");
+	   System.out.println("Enter text");				//enter text
 	   userInput = scnr.nextLine();
-	   scnr.close();
+	   scnr.close();						//close the scanner
 	   
-	   System.out.println("You entered: " + userInput);
+	   System.out.println("You entered: " + userInput);		//print user input
 	   
+	   //works through preset string variables,looks for supported abbreviations
 	   if (userInput.contains("IDK"))
 	   {
 		abbr = "IDK";   
