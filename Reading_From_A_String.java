@@ -9,19 +9,19 @@ public class Reading_From_A_String
 	      String userInput = "Aug 24 2021";
 	      Scanner inSS = new Scanner(userInput);			//input string stream using userInput
 
-	      String userMonth = "";							//declare variables
+	      String userMonth = "";					//declare variables
 	      int userDate = 0;
 	      int userYear = 0;
 
-	      userMonth = inSS.next();							//update String variables from ISS
+	      userMonth = inSS.next();					//update String variables from ISS
 	      userDate = inSS.nextInt();
 	      userYear = inSS.nextInt();
 
-	      inSS.close();										//close scanner
+	      inSS.close();						//close scanner
 	      
 	      System.out.println("Month: " + userMonth);		//output to screen
 	      System.out.println("Date: " + userDate);
 	      System.out.println("Year: " + userYear);
 	      return;
-	   }	
+	 }	
 }
