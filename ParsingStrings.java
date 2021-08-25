@@ -6,7 +6,7 @@ public class ParsingStrings
 {
 	public static void main(String[] args) 
 	{		  
-		Scanner scnr = new Scanner(System.in);	//for keyboard user input
+		Scanner scnr = new Scanner(System.in);				//for keyboard user input
 		Scanner parseName;						//for reading a string
 		String string1;							//stores the string
 		String firstWord;						//first word in string
