@@ -9,7 +9,7 @@ public class Method_Call_In_Expression
 	      double maxVal = 0.0;
 	      
 	      if (num1 > num2) 
-	      { 										// if num1 is greater than num2,
+	      { 								// if num1 is greater than num2,
 	         maxVal = num1;  						// then num1 is the maxVal.
 	      }	      
 	      else 
@@ -28,9 +28,9 @@ public class Method_Call_In_Expression
 	   double numZ = 7.0;
 	   double maxSum = 0.0;
 
-	   maxSum = (findMax(numA, numB) + findMax(numY, numZ)); // call methods and assign to maxSum 
+	   maxSum = (findMax(numA, numB) + findMax(numY, numZ)); 		// call methods and assign to maxSum 
 
 
-	   System.out.print("maxSum is: " + maxSum); //output result to screen
+	   System.out.print("maxSum is: " + maxSum); 				//output result to screen
 	}
 }
