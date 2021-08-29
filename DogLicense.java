@@ -13,7 +13,7 @@ public class DogLicense
 
 	   public void createLicenseNum(int customID) 			// create license number
 	   {
-		   licenseNum = 10000 * customID + licenseYear;
+		   licenseNum = (100000 * customID) + licenseYear;
 		   return;
 	   }
 	   
